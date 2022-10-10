@@ -29,16 +29,25 @@ body {
   text-align: right;
 }
 
+.subtitle_name {
+  position: absolute;
+  top: 160px;
+  right: 50px;
+  font-size: 2em;
+  color: rgb(240, 116, 0);
+  text-align: right;
+}
+
 .img_perfil {
   border-radius: 50%;
-  width: 180px;
-  height: 180px;
+  width: 230px;
+  height: 230px;
   border: solid 6px #fff;
 }
 
 .perfil {
   border-radius: 50%;
-  color: #fff;
+  background-color: #fff;
   box-shadow: 0 0 40px -10px #000;
   position: absolute;
   bottom: 0;
@@ -46,58 +55,30 @@ body {
   transform: translate(-50%, 50%);
 }
 
-.menu {
-  width: 260px;
-  /* margin: 60px; */
-  cursor: pointer;
-}
-.title {
-  width: 100%;
-  box-sizing: border-box;
-  background: #fff;
-  padding: 14px;
-  border-radius: 4px;
-  position: relative;
-  box-shadow: 0 0 40px -10px #000;
-  color: #505050;
-}
-span {
+#cabecalho span {
   float: right;
   font-size: 18px !important;
 }
+
 .dropdown {
-  width: 100%;
-  background: #fff;
+  width: 260px;
+  background-color: #fff;
   border-radius: 4px;
-  box-shadow: 0 0 40px -10px #000;
   color: #505050;
-  margin-top: 24px;
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.5s;
-}
-.down {
-  max-height: 250px;
-}
-.arrow {
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #fff;
   position: absolute;
-  right: 20px;
-  bottom: -24px;
-  display: none;
+  top: 50%;
+  left: 50px;
+  transform: translate(0%, -50%);
 }
-.arrow.gone {
-  display: block;
-}
-p {
+
+#cabecalho p {
+  color: rgb(65, 65, 65);
   padding: 15px 14px;
   margin: 0;
   transition: all 0.1s;
 }
-p:hover {
-  background: coral;
+#cabecalho p:hover {
+  background: rgb(240, 116, 0);
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   color: rgba(255, 255, 255, 0.8);
