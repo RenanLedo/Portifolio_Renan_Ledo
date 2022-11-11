@@ -13,20 +13,40 @@
   </head>
 
   <body>
+
+    <!-- inicio menu-mobile -->
+    <div class="menu-mobile">
+      
+      <a href="#projetos"><span class="fa-solid fa-list"></span><p>Projetos</p></a>
+      <a href="#projetos"><span class="fa-solid fa-chart-simple"></span><p>Stacks</p></a>
+      <a href="#sobre"><span class="fa-solid fa-user"></span><p>Sobre</p></a>
+      <a href="#sobre"><span class="fa-solid fa-address-card"></span><p>Contato</p></a>
+
+    </div><!-- fim menu-mobile -->
+
     <section>
       <header id="cabecalho">
-        <div class="dropdown">
+
+        <!-- inicio menu -->
+        <div class="menu">
           <p>Projetos <span class="fa-solid fa-list"></span></p>
           <p>Stacks <span class="fa-solid fa-chart-simple"></span></p>
-          <p>Sobre <span class="fa-solid fa-user"></span></p>
+          <a href="#sobre"
+            ><p>Sobre <span class="fa-solid fa-user"></span></p
+          ></a>
           <p>Contato <span class="fa-solid fa-address-card"></span></p>
-        </div>
+        </div><!-- fim menu -->
+
         <div class="title_name">
           <h1>Renan Ledo</h1>
         </div>
+
+
         <div class="subtitle_name">
           <h2>FullStrack</h2>
         </div>
+
+
         <div class="perfil">
           <img
             class="img_perfil"
@@ -37,7 +57,62 @@
             "
           />
         </div>
+
       </header>
+      
+    </section>
+
+    <section id="sobre">
+      <!-- <img
+        src="https://media-exp1.licdn.com/dms/image/C4D03AQGWxzsGyiL81A/profile-displayphoto-shrink_800_800/0/1659882999485?e=1671062400&v=beta&t=v2kELyaDraMqX6V9jLjyG4izkR0fARkkztrAyyGwn_s"
+        alt="Renan Ledo"
+      /> -->
+      <div class="title_sobre"><span>Sobre</span></div>
+      <div class="description_sobre">
+        <span>
+          Trabalho com vendas e gerência a muitos anos, adquiri muita
+          experiência, me formei em Administração e me especializei em gestão de
+          negócios, mas nunca me acomodei ou fiquei preso em uma zona de
+          conforto. <br />
+          <br />
+          Abri um restaurante junto com minha esposas para por em pratica toda
+          minha experiência adquiria, e esta sendo um sucesso. <br /><br />
+          <strong
+            >Amo aprender e me apaixonei pelo desenvolvimento de
+            software.</strong
+          >
+          Já faz alguns anos que estudo e faço diversos cursos na área de
+          programação e desenvolvimento de software, e atualmente resolvi fazer
+          outra graduação mas agora na área de analise e desenvolvimento de
+          software para aprimorar cada vez mais meu conhecimento.
+        </span>
+      </div>
+      <section class="seta"><div class="setaBaixo"></div></section>
+    </section>
+    <section id="projetos">
+      <div class="gallery">
+        <figure class="gallery__item gallery__item--1">
+          <img src="images/jogo-memoria/jogo-da-memoria-3.jpeg" alt="Jogo da memoria" class="gallery__img">
+          <span class="description_item">Jogo da Memória desenvolvido em Dart e Flutter, feito para minha filha.</span>
+          <button class="btn_item">Ver Mais</button>
+      </figure>
+        <figure class="gallery__item gallery__item--2">
+            <img src="images/jogo-memoria/jogo-da-memoria-3.jpeg" alt="Gallery image 2" class="gallery__img">
+        </figure>
+        <figure class="gallery__item gallery__item--3">
+            <img src="images/jogo-memoria/jogo-da-memoria-3.jpeg" alt="Gallery image 3" class="gallery__img">
+        </figure>
+        <figure class="gallery__item gallery__item--4">
+            <img src="images/jogo-memoria/jogo-da-memoria-3.jpeg" alt="Gallery image 4" class="gallery__img">
+        </figure>
+        <figure class="gallery__item gallery__item--5">
+            <img src="images/jogo-memoria/jogo-da-memoria-3.jpeg" alt="Gallery image 5" class="gallery__img">
+        </figure>
+        <figure class="gallery__item gallery__item--6">
+            <img src="images/jogo-memoria/jogo-da-memoria-3.jpeg" alt="Gallery image 6" class="gallery__img">
+        </figure>
+    </div>
+</div>
     </section>
   </body>
 </html>
