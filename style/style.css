@@ -209,6 +209,73 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+#stacks {
+  padding: 50px 40px 40px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item-stack {
+  margin: 10px 20px;
+}
+
+.title_stacks {
+  text-align: center;
+  font-size: 2.3em;
+  color: rgb(39, 39, 39);
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.bg-p {
+  height: 10px;
+  width: 400px;
+  background-color: #b4b4b4;
+}
+
+.color-p {
+  height: 10px;
+  /* width: 380px; */
+  background-color: rgb(240, 116, 0);
+}
+
+.um {
+  width: 390px;
+}
+.dois {
+  width: 390px;
+}
+.tres {
+  width: 340px;
+}
+.quatro {
+  width: 320px;
+}
+.cinco {
+  width: 320px;
+}
+.seis {
+  width: 300px;
+}
+.sete {
+  width: 290px;
+}
+.oito {
+  width: 250px;
+}
+.nove {
+  width: 300px;
+}
+.dez {
+  width: 320px;
+}
+.onze {
+  width: 370px;
+}
+.doze {
+  width: 300px;
+}
+
 /* media query para tamanhos de tela */
 
 @media only screen and (max-width: 600px) {
